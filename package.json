@@ -1,0 +1,40 @@
+{
+  "name": "sprint-board",
+  "version": "1.0.0",
+  "description": "creating retrospective board for sprint management",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon -r dotenv/config server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minalnarsale/sprint-board.git"
+  },
+  "keywords": [
+    "REST API",
+    "microservice",
+    "node.js",
+    "mysql"
+  ],
+  "author": "Minal narsale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minalnarsale/sprint-board/issues"
+  },
+  "homepage": "https://github.com/minalnarsale/sprint-board#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-joi-validation": "^4.0.4-beta.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.27",
+    "mongoose-timestamp": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
