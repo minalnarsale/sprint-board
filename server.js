@@ -18,6 +18,9 @@ app.use((req, res, next) => {
     next();
 });
 
+
+
+
 //middleware : connecting to DB
 mongoose.connect('mongodb://localhost:27017/sprint-board', {
     useNewUrlParser: true,

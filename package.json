@@ -15,9 +15,9 @@
     "REST API",
     "microservice",
     "node.js",
-    "mysql"
+    "mongodb"
   ],
-  "author": "Minal narsale",
+  "author": "Minal Narsale",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/minalnarsale/sprint-board/issues"
@@ -30,6 +30,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-joi-validation": "^4.0.4-beta.0",
+    "joi": "^17.2.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.27",
     "mongoose-timestamp": "^0.6.0"
